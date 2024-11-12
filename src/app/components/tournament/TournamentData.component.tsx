@@ -29,10 +29,6 @@ export const TournamentData: FC<TournamentDataPropsType> = ({
     setData((prev) => ({ ...prev, address: event.target.value }));
   };
 
-  //   useEffect(() => {
-  //     setData(data)
-  //   }, [data])
-
   useEffect(() => {
     if (currentData) onSetData(currentData);
   }, [currentData]);

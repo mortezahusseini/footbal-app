@@ -48,13 +48,13 @@ export const CompetitionTeams: FC<CompetitionTeamsType> = ({
         <div className="flex-1 grid grid-cols-2">
           <input
             placeholder="تیم اول"
-            className="ml-2 border rounded-md px-3 py-2"
+            className="ml-2 border border-gray-400 rounded-md px-3 py-2"
             type="text"
             onChange={firstTeamChangeHandler}
           />
           <input
             placeholder="تیم دوم"
-            className="border rounded-md px-3 py-2"
+            className="border border-gray-400 rounded-md px-3 py-2"
             type="text"
             onChange={secondTeamChangeHandler}
           />
@@ -62,7 +62,7 @@ export const CompetitionTeams: FC<CompetitionTeamsType> = ({
         <div className="flex items-center mt-2">
           <input
             placeholder="ساعت مسابقه"
-            className="ml-2 border rounded-md px-3 py-2 flex-1"
+            className="ml-2 border border-gray-400 rounded-md px-3 py-2 flex-1"
             type="text"
             onChange={timeChangeHandler}
           />

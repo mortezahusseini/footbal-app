@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "فوتسال قوم دهقان",
-  description: "مسابقات فوتسال قوم دهقان",
+  description: "مسابقات فوتسال قوم دهقان در تهران، سال ۱۴۰۳ - دیزاین توسط مرتضی حسینی",
 };
 
 export default function RootLayout({
@@ -13,6 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa">
+      <head>
+        <link rel="icon" href="./favicon.ico" sizes="any" />
+      </head>
       <body
         className={'antialiased'}
       >

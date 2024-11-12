@@ -38,21 +38,21 @@ export const TournamentData: FC<TournamentDataPropsType> = ({
       <p className="mb-2"> اضافه کردن اطلاعات تورنومنت </p>
       <input
         placeholder="عنوان مسابقه"
-        className="flex-1 mb-2 border rounded-md px-3 py-2"
+        className="flex-1 mb-2 border border-gray-400 rounded-md px-3 py-2"
         type="text"
         onChange={titleChangeHandler}
         value={currentData?.title}
       />
       <input
         placeholder="تاریخ برگزاری مسابقه"
-        className="flex-1 mb-2 border rounded-md px-3 py-2"
+        className="flex-1 mb-2 border border-gray-400 rounded-md px-3 py-2"
         type="text"
         onChange={saveDateHandler}
         value={currentData?.date}
       />
       <input
         placeholder="آدرس مسابقه"
-        className="flex-1 border rounded-md px-3 py-2"
+        className="flex-1 border border-gray-400 rounded-md px-3 py-2"
         type="text"
         onChange={addressChangeHandler}
         value={currentData?.address}
